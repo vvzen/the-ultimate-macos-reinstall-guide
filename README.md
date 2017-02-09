@@ -70,7 +70,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 
 ##Text editor
 
-1. ###Atom
+1.	![atom-icon](./images/atom.png)
 
 	The open source hackable text editor for the 21st Century
 	
@@ -82,10 +82,13 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 ##Javascript Dev:
 
+
 1. ###Nodejs
 
 	![nodejs-icon](./images/nodejs-128.png)
+		
 	1. ```brew install node``` will install both node and npm
+	
 	2. check that node and npm are correctly installed:
 	
 		```node -v```
