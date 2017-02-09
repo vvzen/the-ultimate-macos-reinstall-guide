@@ -4,6 +4,7 @@
 
 My ultimate list for ***Don't Panic!*** when I've got to reinstall everything from scratch on a new mac or after a format.
 
+For a longer reading with explanations about each package, I suggest you to visit this awesome guide by Sourabh Bajaj: [http://sourabhbajaj.com/mac-setup/](http://sourabhbajaj.com/mac-setup/) .
 
 
 ##Package managers:
