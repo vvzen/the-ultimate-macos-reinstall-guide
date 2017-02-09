@@ -9,6 +9,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 ##Package managers:
 
 1. ###homebrew
+
 	The missing macOS packager!
 
 	![homebrew-icon](./images/homebrew-100.png)
@@ -23,6 +24,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	Show installed pkgs: ```brew list``` <br>
 
 2. ###homebrew cask
+
 	For installing apps view brew.
 	
 	[https://caskroom.github.io](https://caskroom.github.io)
@@ -31,7 +33,9 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 ##Command line tools:
 1. ###wget
+
 	```brew install wget```
+	
 2. ###git
 	source control!
 	
@@ -46,6 +50,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 		```gcc --version```
 
 ##Shell:
+
 1. ###oh-my-zsh
 
 	![oh-my-zsh-icon](./images/oh-my-zsh-200.png)
@@ -60,12 +65,12 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 	```sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"```
 	
-	Theme:
-	
-	```ZSH_THEME="zhann"```
+	Theme: ```ZSH_THEME="zhann"```
 
 ##Text editor
+
 1. ###Atom
+
 	The open source hackable text editor for the 21st Century
 	
 	```brew cask install atom```
@@ -75,7 +80,9 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	```brew cask install visual-studio-code```
 	
 ##Javascript Dev:
+
 1. ###Nodejs
+
 	![nodejs-icon](./images/nodejs-128.png)
 	1. ```brew install node``` will install both node and npm
 	2. check that node and npm are correctly installed:
@@ -84,6 +91,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 		```npm -v```
 2. ###NodeJS version manager
+
 	For easing switching between node versions, LTS, etc..
 	
 	[https://github.com/tj/n](https://github.com/tj/n)
@@ -91,29 +99,36 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	```npm install -g n```
 	
 ##Utility
+
 1. ###Dash
+
 	![dash-icon](./images/dash-64.png)
 	
 	Get offline access to 150+ API documentation sets.
 	
 	[https://kapeli.com/dash](https://kapeli.com/dash)
+	
 2. ###Imagemagick
+
 	![image-magick-icon](./images/wizard-128.png)
 	
 	The all in 1 image manipulation software run from command line.
 	
 	```brew install imagemagick```
+	
 3. ###Crontab-UI
+
 	A nice interface for managing cron jobs with crontab.
 	
 	[https://github.com/alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
 	
-	```npm install -g crontab-ui```<br>
-	```crontab-ui```
-
+	```npm install -g crontab-ui``` then to open it ```crontab-ui```
+	
 	
 ##Science&Math
+
 1. ###Octave 
+
 	![octave-icon](./images/octave-64.png)
 	
 	First ```brew tap homebrew/science``` then you can ```brew install octave```
