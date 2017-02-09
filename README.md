@@ -11,7 +11,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 1. ###homebrew
 	The missing macOS packager!
 
-	![homebrew-icon](./homebrew-100.png)
+	![homebrew-icon](./images/homebrew-100.png)
 
 	[http://brew.sh/index_it.html](http://brew.sh/index_it.html)
 
@@ -48,7 +48,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 ##Shell:
 1. ###oh-my-zsh
 
-	![oh-my-zsh-icon](./oh-my-zsh-200.png)
+	![oh-my-zsh-icon](./images/oh-my-zsh-200.png)
 
 	[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 	
@@ -76,7 +76,7 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 ##Javascript Dev:
 1. ###Nodejs
-	![nodejs-icon](./nodejs-128.png)
+	![nodejs-icon](./images/nodejs-128.png)
 	1. ```brew install node``` will install both node and npm
 	2. check that node and npm are correctly installed:
 	
@@ -92,13 +92,13 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 ##Utility
 1. ###Dash
-	![dash-icon](./dash-64.png)
+	![dash-icon](./images/dash-64.png)
 	
 	Get offline access to 150+ API documentation sets.
 	
 	[https://kapeli.com/dash](https://kapeli.com/dash)
 2. ###Imagemagick
-	![image-magick-icon](wizard-128.png)
+	![image-magick-icon](./images/wizard-128.png)
 	
 	The all in 1 image manipulation software run from command line.
 	
@@ -114,6 +114,6 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 	
 ##Science&Math
 1. ###Octave 
-	![octave-icon](./octave-64.png)
+	![octave-icon](./images/octave-64.png)
 	
 	First ```brew tap homebrew/science``` then you can ```brew install octave```
