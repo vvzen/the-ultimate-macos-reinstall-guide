@@ -1,6 +1,6 @@
 #MURG: MacOS Ultimate Reinstall Guide
 ===
-####Latest update: 09/02/2017
+####Latest update: 13/02/2017
 
 My ultimate list for ***Don't Panic!*** when I've got to reinstall everything from scratch on a new mac or after a format.
 
@@ -76,9 +76,21 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```brew cask install atom```
 2. ###Visual Studio Code
+
+	![asd](./images/visual-studio-code-200.png)
+	
 	The closed source text editor from windows, but with great performance
 	
 	```brew cask install visual-studio-code```
+	
+	**Extensions**:
+	
+	1. ext install beautify
+	2. ext install Dracula Theme
+	3. ext install Handlebars
+	4. ext install HTML Snippets
+	5. ext install Material-theme
+	6. ext install TODO Highlight 
 	
 ##Javascript Dev:
 
@@ -119,6 +131,12 @@ For a longer reading with explanations about each package, I suggest you to visi
 	The all in 1 image manipulation software run from command line.
 	
 	```brew install imagemagick```
+	
+3. ###Color Maker
+	
+	A nice color picker app with hex output.
+	
+	[https://itunes.apple.com/it/app/color-maker/id561995913?mt=12](https://itunes.apple.com/it/app/color-maker/id561995913?mt=12)
 	
 3. ###Crontab-UI
 
