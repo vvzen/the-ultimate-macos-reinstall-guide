@@ -113,6 +113,14 @@ For a longer reading with explanations about each package, I suggest you to visi
 	[https://github.com/tj/n](https://github.com/tj/n)
 	
 	```npm install -g n```
+3. ###Gulp
+	Instally globally:
+	
+	```npm install -g gulp```
+	
+	and locally to the project:
+	
+	```npm install --save-dev gulp```
 	
 ##Utility
 
@@ -132,7 +140,27 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```brew install imagemagick```
 	
-3. ###Color Maker
+	A simple example of resizing an image:
+	
+	```convert input.jpg -resize 50% output.jpg```
+
+3. ###Handbrake 	
+	![handbrake-icon](./images/handbrake-100.png)
+		
+	Tool for converting video from nearly any format to a selection of modern, widely supported codecs.
+	
+	```brew install handbrake```
+	
+	simple conversion example:
+	
+	```handbrakeCLI -i input.mov -o output.mp4```
+	
+	a more complex one (x264 codec, quality 20, audio as 160kbps AAC):
+	
+	```handBrakeCLI -i VIDEO_TS -o movie.mp4 -e x264 -q 20 -B 160```
+	
+	
+4. ###Color Maker
 	
 	A nice color picker app with hex output.
 	
