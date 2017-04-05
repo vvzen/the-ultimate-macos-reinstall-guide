@@ -85,12 +85,12 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	**Extensions**:
 	
-	1. ext install beautify
-	2. ext install Dracula Theme
-	3. ext install Handlebars
-	4. ext install HTML Snippets
-	5. ext install Material-theme
-	6. ext install TODO Highlight 
+	1. ```ext install beautify```
+	2. ```ext install Dracula Theme```
+	3. ```ext install Handlebars```
+	4. ```ext install HTML Snippets```
+	5. ```ext install Material-theme```
+	6. ```ext install TODO Highlight```
 	
 ## Javascript Dev:
 
