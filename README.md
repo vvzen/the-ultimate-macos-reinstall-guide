@@ -7,9 +7,9 @@ My ultimate list for ***Don't Panic!*** when I've got to reinstall everything fr
 For a longer reading with explanations about each package, I suggest you to visit this awesome guide by Sourabh Bajaj: [http://sourabhbajaj.com/mac-setup/](http://sourabhbajaj.com/mac-setup/) .
 
 
-##Package managers:
+## Package managers:
 
-1. ###homebrew
+1. ### homebrew
 
 	The missing macOS packager!
 
@@ -24,7 +24,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 	Install pkgs: ```brew install packagename``` <br>
 	Show installed pkgs: ```brew list``` <br>
 
-2. ###homebrew cask
+2. ### homebrew cask
 
 	For installing apps view brew.
 	
@@ -32,12 +32,12 @@ For a longer reading with explanations about each package, I suggest you to visi
 
 	```brew tap caskroom/cask```
 	
-##Command line tools:
-1. ###wget
+## Command line tools:
+1. ### wget
 
 	```brew install wget```
 	
-2. ###git
+2. ### git
 	source control!
 	
 	```brew install git```
@@ -50,9 +50,9 @@ For a longer reading with explanations about each package, I suggest you to visi
 	3. check if installation went good:
 		```gcc --version```
 
-##Shell:
+## Shell:
 
-1. ###oh-my-zsh
+1. ### oh-my-zsh
 
 	![oh-my-zsh-icon](./images/oh-my-zsh-200.png)
 
@@ -68,14 +68,14 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	Theme: ```ZSH_THEME="zhann"```
 
-##Text editor
+## Text editor
 
 1.	![atom-icon](./images/atom.png)
 
 	The open source hackable text editor for the 21st Century
 	
 	```brew cask install atom```
-2. ###Visual Studio Code
+2. ### Visual Studio Code
 
 	![asd](./images/visual-studio-code-200.png)
 	
@@ -92,10 +92,10 @@ For a longer reading with explanations about each package, I suggest you to visi
 	5. ext install Material-theme
 	6. ext install TODO Highlight 
 	
-##Javascript Dev:
+## Javascript Dev:
 
 
-1. ###Nodejs
+1. ### Nodejs
 
 	![nodejs-icon](./images/nodejs-128.png)
 		
@@ -106,14 +106,14 @@ For a longer reading with explanations about each package, I suggest you to visi
 		```node -v```
 	
 		```npm -v```
-2. ###NodeJS version manager
+2. ### NodeJS version manager
 
 	For easing switching between node versions, LTS, etc..
 	
 	[https://github.com/tj/n](https://github.com/tj/n)
 	
 	```npm install -g n```
-3. ###Gulp
+3. ### Gulp
 	Instally globally:
 	
 	```npm install -g gulp```
@@ -122,9 +122,9 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```npm install --save-dev gulp```
 	
-##Utility
+## Utility
 
-1. ###Dash
+1. ### Dash
 
 	![dash-icon](./images/dash-64.png)
 	
@@ -132,7 +132,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	[https://kapeli.com/dash](https://kapeli.com/dash)
 	
-2. ###Imagemagick
+2. ### Imagemagick
 
 	![image-magick-icon](./images/wizard-128.png)
 	
@@ -144,7 +144,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```convert input.jpg -resize 50% output.jpg```
 
-3. ###Handbrake 	
+3. ### Handbrake 	
 	![handbrake-icon](./images/handbrake-100.png)
 		
 	Tool for converting video from nearly any format to a selection of modern, widely supported codecs.
@@ -160,13 +160,13 @@ For a longer reading with explanations about each package, I suggest you to visi
 	```handBrakeCLI -i VIDEO_TS -o movie.mp4 -e x264 -q 20 -B 160```
 	
 	
-4. ###Color Maker
+4. ### Color Maker
 	
 	A nice color picker app with hex output.
 	
 	[https://itunes.apple.com/it/app/color-maker/id561995913?mt=12](https://itunes.apple.com/it/app/color-maker/id561995913?mt=12)
 	
-3. ###Crontab-UI
+3. ### Crontab-UI
 
 	A nice interface for managing cron jobs with crontab.
 	
@@ -175,9 +175,9 @@ For a longer reading with explanations about each package, I suggest you to visi
 	```npm install -g crontab-ui``` then to open it ```crontab-ui```
 	
 	
-##Science&Math
+## Science&Math
 
-1. ###Octave 
+1. ### Octave 
 
 	![octave-icon](./images/octave-64.png)
 	
