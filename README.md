@@ -79,7 +79,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 
 	![asd](./images/visual-studio-code-200.png)
 	
-	The closed source text editor from windows, but with great performance
+	The open source text editor from windows, with great performance
 	
 	```brew cask install visual-studio-code```
 	
