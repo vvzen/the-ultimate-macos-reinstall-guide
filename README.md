@@ -177,6 +177,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 # Gimmicks
 1. ### Quick Look Plugins
+
 	See [this repo](https://github.com/sindresorhus/quick-look-plugins) for more infos!
 	
 	Preview source code files with syntax highlighting
@@ -200,7 +201,8 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	First ```brew tap homebrew/science``` then you can ```brew install octave```
 	
-2. ### R 
+2. ### R
+
 	After tapping science you can
 	
 	```brew install Caskroom/cask/xquartz```
