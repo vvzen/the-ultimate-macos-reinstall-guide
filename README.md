@@ -42,7 +42,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```brew install git```
 	
-2. ###XCode command line tools
+2. ### XCode command line tools
 	1. check if xcode is installed:
 		```xcode-select -p```	
 	2. then
