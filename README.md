@@ -1,4 +1,4 @@
-#MURG: MacOS Ultimate Reinstall Guide
+# MURG: MacOS Ultimate Reinstall Guide
 ===
 ####Latest update: 13/02/2017
 
@@ -122,7 +122,8 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```npm install --save-dev gulp```
 	
-## Utility
+	
+# Utility
 
 1. ### Dash
 
@@ -171,8 +172,24 @@ For a longer reading with explanations about each package, I suggest you to visi
 	A nice interface for managing cron jobs with crontab.
 	
 	[https://github.com/alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
-	
+		
 	```npm install -g crontab-ui``` then to open it ```crontab-ui```
+	
+# Gimmicks
+1. ### Quick Look Plugins
+	See [this repo](https://github.com/sindresorhus/quick-look-plugins) for more infos!
+	
+	Preview source code files with syntax highlighting
+	
+	```brew cask install qlcolorcode```
+	
+	Preview JSON files
+	
+	```brew cask install quicklook-json```
+	
+	Display image size and resolution
+	
+	```brew cask install qlimagesize```
 	
 	
 ## Science&Math
@@ -182,3 +199,12 @@ For a longer reading with explanations about each package, I suggest you to visi
 	![octave-icon](./images/octave-64.png)
 	
 	First ```brew tap homebrew/science``` then you can ```brew install octave```
+	
+2. ### R 
+	After tapping science you can
+	
+	```brew install Caskroom/cask/xquartz```
+	
+	```brew install r```
+	
+	If you've got ```libgfortran.3.dylib: image not found``` when opening RStudio from Finder/Spotlight, check this [github issue](https://github.com/Homebrew/homebrew-science/issues/2286).
