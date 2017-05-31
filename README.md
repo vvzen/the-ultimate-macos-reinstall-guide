@@ -1,13 +1,26 @@
 # MURG: MacOS Ultimate Reinstall Guide
 
-#### Latest update: 13/05/2017
+#### Latest update: 31/05/2017
 
 My ultimate list for ***Don't Panic!*** when I've got to reinstall everything from scratch on a new mac or after a format.
 
 For a longer reading with explanations about each package, I suggest you to visit this awesome guide by Sourabh Bajaj: [http://sourabhbajaj.com/mac-setup/](http://sourabhbajaj.com/mac-setup/) .
 
+===
+
 
 ## Package managers:
+
+One good idea would be to **always have a list of all packages currently installed** on your system so that whenever you'll be doing a clean reinstall you know exactly which packages you need.
+
+Using homebrew, this can be as simple as that:
+
+```brew leaves > brew_installed_packages.txt```
+
+For cask apps:
+
+```brew cask list > brew_cask_installed_packages.txt```
+
 
 1. ### homebrew
 
@@ -122,6 +135,18 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	```npm install --save-dev gulp```
 	
+# Python
+
+1. ```brew install python3```
+	
+	Along with Python 3, Homebrew will install pip, setuptools and wheel.
+
+2. Additional packages:
+	
+	see also: [installing-keras-for-deep-learning](http://www.pyimagesearch.com/2016/07/18/installing-keras-for-deep-learning/)
+	
+	1. **Numpy** ```pip3 install numpy```
+	
 	
 # Utility
 
@@ -175,7 +200,7 @@ For a longer reading with explanations about each package, I suggest you to visi
 		
 	```npm install -g crontab-ui``` then to open it ```crontab-ui```
 	
-# Gimmicks
+## Gimmicks
 1. ### Quick look plugins
 
 	See [this repo](https://github.com/sindresorhus/quick-look-plugins) for more infos!
@@ -191,8 +216,8 @@ For a longer reading with explanations about each package, I suggest you to visi
 	Display image size and resolution
 	
 	```brew cask install qlimagesize```
-	
-	
+
+
 ## Science&Math
 
 1. ### Octave 
@@ -201,12 +226,44 @@ For a longer reading with explanations about each package, I suggest you to visi
 	
 	First ```brew tap homebrew/science``` then you can ```brew install octave```
 	
-2. ### R 
+	
+## Data Science
 
+1. ### R 
+	![img](images/R-logo-100.png)
+	
 	After tapping science you can
 	
 	```brew install Caskroom/cask/xquartz```
 	
 	```brew install r```
 	
-	If you've got ```libgfortran.3.dylib: image not found``` when opening RStudio from Finder/Spotlight, check this [github issue](https://github.com/Homebrew/homebrew-science/issues/2286).
+	If you've got ```libgfortran.3.dylib: image not found``` error when opening RStudio from Finder/Spotlight, check this [github issue](https://github.com/Homebrew/homebrew-science/issues/2286).
+	
+2. #### Converters
+	
+	1. **Csv to Geojson**
+		
+		See [https://github.com/mapbox/csv2geojson](https://github.com/mapbox/csv2geojson)
+		
+	2. **Shape file to GeoJSON**
+		
+		Install [GDAL](http://www.gdal.org) : ```brew install gdal``` 
+		
+		Then you can:
+		
+		```ogr2ogr -f GeoJSON output.json -t_srs crs:84 input.shp```
+		
+		(using *crs:84* as projection)
+	
+	3. **GeoJSON to TopoJSON**
+		
+		This script requires the installation of **Node** and **Npm**.
+		
+		```npm install -g topojson```
+		
+		```geo2topo -i input.json -o output.json``` 
+		
+		See [here](https://github.com/topojson/topojson-server/blob/master/README.md) for more info.
+		 
+		
