@@ -46,16 +46,19 @@ For cask apps:
 	```brew tap caskroom/cask```
 	
 ## Command line tools:
+
 1. ### wget
 
 	```brew install wget```
 	
 2. ### git
+
 	source control!
 	
 	```brew install git```
 	
-2. ### XCode command line tools
+3. ### XCode command line tools
+
 	1. check if xcode is installed:
 		```xcode-select -p```	
 	2. then
@@ -80,6 +83,8 @@ For cask apps:
 	```sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"```
 	
 	Theme: ```ZSH_THEME="zhann"```
+	
+	Font: `Menlo 11 pt.`
 
 ## Text editor
 
@@ -88,6 +93,7 @@ For cask apps:
 	The open source hackable text editor for the 21st Century
 	
 	```brew cask install atom```
+	
 2. ### Visual Studio Code
 
 	![asd](./images/visual-studio-code-200.png)
@@ -104,6 +110,12 @@ For cask apps:
 	4. ```ext install HTML Snippets```
 	5. ```ext install Material-theme```
 	6. ```ext install TODO Highlight```
+	
+3. ### Macdown
+	
+	![macdown](images/macdown-100.png)
+	
+	```brew cask install macdown```
 	
 ## Javascript Dev:
 
@@ -242,7 +254,7 @@ For cask apps:
 	
 2. #### Converters
 	
-	1. **Csv to Geojson**
+	1. **Csv to GeoJSON**
 		
 		See [https://github.com/mapbox/csv2geojson](https://github.com/mapbox/csv2geojson)
 		
