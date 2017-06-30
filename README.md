@@ -278,4 +278,21 @@ For cask apps:
 		
 		See [here](https://github.com/topojson/topojson-server/blob/master/README.md) for more info.
 		 
-		
+
+## Glitch art
+
+1. ### Avidemux
+	
+	Video editor for datamoshing!
+	
+	```brew cask install avidemux```
+	
+2. ### byebyte
+
+	![img](images/byebyte.png)
+
+	*destroy your files in the name of art*
+	
+	[github repo](https://github.com/wayspurrchen/byebyte)
+	
+	```npm install -g byebyte```
