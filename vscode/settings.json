@@ -1,0 +1,17 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Atom One Dark",
+    // vscode
+    "editor.tabSize" : 4,
+    "files.insertFinalNewline": true,
+    // maya api autocompletions
+    "python.pythonPath": "C:/Program Files/Autodesk/Maya2016/bin/mayapy.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "C:/Program Files/Autodesk/Maya2016/Python/Scripts/pylint.exe",
+    "python.autoComplete.extraPaths" : [
+        "C:/Program Files/Autodesk/Maya2016/Python/Lib/site-packages",
+        "C:/Program Files/Autodesk/Maya2016/Python/Lib/site-packages/pymel/core",
+        "C:/DEV_Sandbox/Maya-devkit/win/devkit/other/pymel/extras/completion/py",
+        "C:/DEV_Sandbox/Maya-devkit/win/devkit/other/pymel/extras/completion/py/maya"
+    ]
+}

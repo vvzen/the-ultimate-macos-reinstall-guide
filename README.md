@@ -1,8 +1,11 @@
 # MURG: MacOS Ultimate Reinstall Guide
 
-#### Latest update: 31/05/2017
+#### Latest update: 31/07/2017
 
 My ultimate list for ***Don't Panic!*** when I've got to reinstall everything from scratch on a new mac or after a format.
+
+This is slowly becoming also my guide to setup a clean working environment when switching among different studios.
+For this reason an experimental branch now exists covering additional tools required for pipeline development under windows. 
 
 For a longer reading with explanations about each package, I suggest you to visit this awesome guide by Sourabh Bajaj: [http://sourabhbajaj.com/mac-setup/](http://sourabhbajaj.com/mac-setup/) .
 
@@ -110,6 +113,8 @@ For cask apps:
 	4. ```ext install HTML Snippets```
 	5. ```ext install Material-theme```
 	6. ```ext install TODO Highlight```
+	7. ```ext install Markdown Preview Enhanced```
+	8. ```ext install vscode-icons```
 	
 3. ### Macdown
 	
