@@ -156,8 +156,9 @@ For cask apps:
 
 Transform your plain text into static websites and blogs!
 
-1. `gem install jekyll`
-2. `gem install bundle`
+1. Install another ruby instead of the system one: `brew install ruby`
+2. `gem install jekyll`
+3. `gem install bundle`
 
 	
 # Python
