@@ -131,6 +131,7 @@ For cask apps:
 		```node -v```
 	
 		```npm -v```
+
 2. ### NodeJS version manager
 
 	For easing switching between node versions, LTS, etc..
@@ -138,7 +139,9 @@ For cask apps:
 	[https://github.com/tj/n](https://github.com/tj/n)
 	
 	```npm install -g n```
+
 3. ### Gulp
+
 	Instally globally:
 	
 	```npm install -g gulp```
@@ -146,6 +149,16 @@ For cask apps:
 	and locally to the project:
 	
 	```npm install --save-dev gulp```
+	
+# Jekyll
+
+![jekyll](images/jekyll-200.png)
+
+Transform your plain text into static websites and blogs!
+
+1. `gem install jekyll`
+2. `gem install bundle`
+
 	
 # Python
 
