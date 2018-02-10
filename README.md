@@ -109,7 +109,7 @@ For cask apps:
 	3. ```ext install Handlebars```
 	4. ```ext install HTML Snippets```
 	5. ```ext install Material-theme```
-	6. ```ext install TODO Highlight```
+	6. ```ext install wayou.vscode-todo-highlight```
 	
 3. ### Macdown
 	
