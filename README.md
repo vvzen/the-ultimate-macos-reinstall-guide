@@ -105,7 +105,7 @@ For cask apps:
 	**Extensions**:
 	
 	1. ```ext install beautify```
-	2. ```ext install Dracula Theme```
+	2. ```ext install akamud.vscode-theme-onedark```
 	3. ```ext install Handlebars```
 	4. ```ext install HTML Snippets```
 	5. ```ext install Material-theme```
