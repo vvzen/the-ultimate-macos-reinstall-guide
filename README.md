@@ -104,12 +104,7 @@ For cask apps:
 	
 	**Extensions**:
 	
-	1. ```ext install beautify```
-	2. ```ext install akamud.vscode-theme-onedark```
-	3. ```ext install Handlebars```
-	4. ```ext install HTML Snippets```
-	5. ```ext install Material-theme```
-	6. ```ext install wayou.vscode-todo-highlight```
+	1. ```ext install Shan.code-settings-sync``` to share vscode settings among multiple machines
 	
 3. ### Macdown
 	
