@@ -1,6 +1,6 @@
 # MURG: MacOS Ultimate Reinstall Guide
 
-#### Latest update: 31/05/2017
+#### Latest update: 12/02/2018
 
 My ultimate list for ***Don't Panic!*** when I've got to reinstall everything from scratch on a new mac or after a format.
 
