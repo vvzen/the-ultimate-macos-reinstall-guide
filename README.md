@@ -102,6 +102,10 @@ For cask apps:
 	
 	```brew cask install visual-studio-code```
 	
+	**Font**
+	
+	[Fira Code](https://github.com/tonsky/FiraCode) with ligatures activated
+	
 	**Extensions**:
 	
 	1. ```ext install Shan.code-settings-sync``` to share vscode settings among multiple machines
